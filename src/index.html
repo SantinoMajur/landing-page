@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Google Icon CDN-->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="../dist/output.css">
+    <title>Landing page</title>
+</head>
+
+<body>
+    <header class="bg-slate-800 p-3">
+        <nav class="flex w-full max-w-sm justify-between mx-auto p-2 sm:max-w-2xl">
+            <a href="#" class="text-2xl text-gray-300">Header Logo</a>
+            <ul class="sm:flex hidden text-lg text-gray-300 justify-start gap-5 text-center" id="navLinks">
+                <li><a href="#">link one</a></li>
+                <li><a href="#">link two</a></li>
+                <li><a href="#">link three</a></li>
+                <li><a href="#">link four</a></li>
+            </ul>
+            <button class="text-lg text-gray-300 sm:hidden"> <span
+                    class="material-symbols-outlined md-36">menu</span></button>
+        </nav>
+    </header>
+    <main class="-mt-1">
+        <section class="bg-slate-800 w-full p-5 flex flex-col sm:flex-row">
+            <div class="order-2 pt-7 max-w-md mx-auto sm:order-1 sm:w-1/2">
+                <h1 class="text-2xl text-gray-200 text-center font-extrabold sm:text-4xl sm:text-left">This website is
+                    awesome</h1>
+                <p class="text-sm text-gray-400 px-7 pt-5 sm:text-lg sm:text-left sm:px-0">This website has some
+                    subtext that goes here under the main title. it's a smaller font and the color is lower contrast</p>
+                <button
+                    class="mt-4 ml-6 px-7 py-2 border-none bg-blue-500 rounded-lg text-center text-sm text-gray-200 sm:ml-0 ">Sign
+                    up</button>
+            </div>
+            <div
+                class="border-2 border-gray-400 w-full h-24 bg-gray-600 order-1 flex justify-center items-center text-gray-100 max-w-sm mx-auto sm:order-2 sm:w-66 sm:h-56 sm:m-auto">
+                <p class="w-auto">This is a placeholder for an image</p>
+            </div>
+        </section>
+        <section class="p-5">
+            <h2 class="text-2xl text-center p-5 text-sky-900 sm:text-3xl">Some Random Information</h2>
+            <div class="flex flex-wrap justify-between items-center mt-5 gap-4 max-w-md mx-auto sm:max-w-xl">
+                <div class="flex flex-col w-66">
+                    <div class="border-4 border-blue-600 w-full h-24 rounded-xl sm:h-40"></div>
+                    <p class=" text-sm text-gray-600 p-2 mt-3">This is subtext under an illustration or image</p>
+                </div>
+                <div class="flex flex-col w-66">
+                    <div class="border-4 border-blue-600 w-full h-24 rounded-xl sm:h-40"></div>
+                    <p class=" text-sm text-gray-600 p-2 mt-3">This is subtext under an illustration or image</p>
+                </div>
+                <div class="flex flex-col w-66">
+                    <div class="border-4 border-blue-600 w-full h-24 rounded-xl sm:h-40"></div>
+                    <p class=" text-sm text-gray-600 p-2 mt-3">This is subtext under an illustration or image</p>
+                </div>
+                <div class="flex flex-col w-66">
+                    <div class="border-4 border-blue-600 w-full h-24 rounded-xl sm:h-40"></div>
+                    <p class="text-sm text-gray-600 p-2 mt-3">This is subtext under an illustration or image</p>
+                </div>
+            </div>
+        </section>
+        <section class="bg-slate-100 p-5">
+            <blockquote class="text-gray-800 text-base p-2 max-w-sm mx-auto sm:max-w-lg">
+                This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe
+                people will actually read it who knows? All I know is that it looks nice. <span
+                    class="font-bold">&mdash;Thor, God of Thunder</span>
+            </blockquote>
+        </section>
+        <section class="p-5">
+            <div class="bg-blue-500 p-3 rounded-lg flex flex-col max-w-sm mx-auto sm:max-w-lg sm:flex-row">
+                <div class="flex flex-col ">
+                    <h2 class="text-gray-300 text-lg p-2">Call to action! it's time!</h2>
+                    <p class="text-gray-300 text-sm p-1">Sign up for our product by clicking that button right over
+                        there!</p>
+                </div>
+                <button
+                    class="mt-4 px-7 py-2 border border-gray-300 bg-blue-500 rounded-lg text-center text-sm text-gray-200 w-32 sm:m-9">Sign
+                    up</button>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-slate-800 p-5 text-center">
+        <p class="text-gray-300 text-sm">Copyright &copy; The Odin Project 2022</p>
+    </footer>
+</body>
+
+</html>
