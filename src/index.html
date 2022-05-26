@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <header class="bg-slate-800 p-3">
+    <header class="bg-slate-800 p-3 w-full">
         <nav class="flex w-full max-w-sm justify-between mx-auto p-2 sm:max-w-2xl">
             <a href="#" class="text-2xl text-gray-300">Header Logo</a>
             <ul class="sm:flex hidden text-lg text-gray-300 justify-start gap-5 text-center" id="navLinks">
@@ -23,17 +23,13 @@
                 <li><a href="#">link four</a></li>
             </ul>
             <button class="text-lg text-gray-300 sm:hidden"> <span
-                    class="material-symbols-outlined md-36">menu</span></button>
+                    class="border border-gray-300 material-symbols-outlined">menu</span></button>
+                    <span class="material-symbols-outlined hidden">close</span>
+
         </nav>
-        <div class="landscape:hidden">
-            <p>
-              This experience is designed to be viewed in landscape. Please rotate your
-              device to view the site.
-            </p>
-          </div>
     </header>
-    <main class="-mt-1">
-        <section class="bg-slate-800 w-full p-5 flex flex-col sm:flex-row">
+    <main class="-mt-1 w-full">
+        <section class="bg-slate-800 w-full p-5 flex flex-col sm:flex-row md:px-14 md:py-8">
             <div class="order-2 pt-7 max-w-md mx-auto sm:order-1 sm:w-1/2">
                 <h1 class="text-2xl text-gray-200 text-center font-extrabold sm:text-4xl sm:text-left">This website is
                     awesome</h1>
@@ -48,39 +44,39 @@
                 <p class="w-auto">This is a placeholder for an image</p>
             </div>
         </section>
-        <section class="p-5">
+        <section class="p-5 md:my-6">
             <h2 class="text-2xl text-center p-5 text-sky-900 sm:text-3xl">Some Random Information</h2>
-            <div class="flex flex-wrap justify-between items-center mt-5 gap-4 max-w-md mx-auto sm:max-w-xl">
+            <div class="flex flex-wrap justify-between items-center mt-5 gap-4 max-w-md mx-auto sm:max-w-xl md:flex-nowrap md:max-w-4xl">
                 <div class="flex flex-col w-66">
                     <div class="border-4 border-blue-600 w-full h-24 rounded-xl sm:h-40"></div>
-                    <p class=" text-sm text-gray-600 p-2 mt-3">This is subtext under an illustration or image</p>
+                    <p class=" text-sm text-gray-600 p-2 mt-3 md:text-center md:text-xl">This is subtext under an illustration or image</p>
                 </div>
                 <div class="flex flex-col w-66">
                     <div class="border-4 border-blue-600 w-full h-24 rounded-xl sm:h-40"></div>
-                    <p class=" text-sm text-gray-600 p-2 mt-3">This is subtext under an illustration or image</p>
+                    <p class=" text-sm text-gray-600 p-2 mt-3 md:text-center md:text-xl">This is subtext under an illustration or image</p>
                 </div>
                 <div class="flex flex-col w-66">
                     <div class="border-4 border-blue-600 w-full h-24 rounded-xl sm:h-40"></div>
-                    <p class=" text-sm text-gray-600 p-2 mt-3">This is subtext under an illustration or image</p>
+                    <p class=" text-sm text-gray-600 p-2 mt-3 md:text-center md:text-xl">This is subtext under an illustration or image</p>
                 </div>
                 <div class="flex flex-col w-66">
                     <div class="border-4 border-blue-600 w-full h-24 rounded-xl sm:h-40"></div>
-                    <p class="text-sm text-gray-600 p-2 mt-3">This is subtext under an illustration or image</p>
+                    <p class="text-sm text-gray-600 p-2 mt-3 md:text-center md:text-xl">This is subtext under an illustration or image</p>
                 </div>
             </div>
         </section>
-        <section class="bg-slate-100 p-5">
-            <blockquote class="text-gray-800 text-base p-2 max-w-sm mx-auto sm:max-w-lg">
+        <section class="bg-slate-100 p-5 md:my-8 md:py-12">
+            <blockquote class="text-gray-800 text-base p-2 max-w-sm mx-auto sm:max-w-lg md:max-w-2xl md:text-lg">
                 This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe
                 people will actually read it who knows? All I know is that it looks nice. <span
                     class="font-bold">&mdash;Thor, God of Thunder</span>
             </blockquote>
         </section>
-        <section class="p-5">
-            <div class="bg-blue-500 p-3 rounded-lg flex flex-col max-w-sm mx-auto sm:max-w-lg sm:flex-row">
+        <section class="p-5 md:py-12">
+            <div class="bg-blue-500 p-3 rounded-lg flex flex-col max-w-sm mx-auto sm:max-w-lg sm:flex-row md:max-w-2xl md:justify-center md:items-center">
                 <div class="flex flex-col ">
-                    <h2 class="text-gray-300 text-lg p-2">Call to action! it's time!</h2>
-                    <p class="text-gray-300 text-sm p-1">Sign up for our product by clicking that button right over
+                    <h2 class="text-gray-300 text-lg p-2 md:p-0">Call to action! it's time!</h2>
+                    <p class="text-gray-300 text-sm p-1 md:p-0">Sign up for our product by clicking that button right over
                         there!</p>
                 </div>
                 <button
@@ -89,7 +85,7 @@
             </div>
         </section>
     </main>
-    <footer class="bg-slate-800 p-5 text-center">
+    <footer class="bg-slate-800 p-5 text-center w-full md:py">
         <p class="text-gray-300 text-sm">Copyright &copy; The Odin Project 2022</p>
     </footer>
 </body>
